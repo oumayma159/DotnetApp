@@ -6,6 +6,6 @@
     "\\DotnetApp\\Views",
     "\\DotnetApp\\Views\\Customer"
   ],
-  "SelectedNode": "\\DotnetApp\\Controllers\\CustomerController.cs",
+  "SelectedNode": "\\DotnetApp\\Views\\Customer\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
