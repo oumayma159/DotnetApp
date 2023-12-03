@@ -1,0 +1,33 @@
+﻿@model IEnumerable<DotnetApp.Models.Movie>
+
+@{
+    ViewData["Title"] = "Movie List";
+}
+
+<h2 class="mb-4">Movie List</h2>
+
+<div class="container mt-5">
+    <a class="btn btn-secondary"
+       asp-area=""
+       asp-controller="Movie"
+       asp-action="create" role="button">Create New Movie</a>
+
+    <br />
+
+    <div class="row">
+        @foreach (var movie in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="@movie.Poster" class="card-img-top movie-img height:10%" alt="Movie Image">
+                    <div class="card-body">
+                        <h5 class="card-title">@movie.Name</h5>
+                        <p class="card-text">Released At : @movie.Released </p>
+                    </div>
+                </div>
+                <a asp-action="Delete" asp-route-id="@movie.Id">Delete</a>
+            </div>
+        }
+    </div>
+
+</div>

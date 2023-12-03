@@ -1,0 +1,49 @@
+﻿@model DotnetApp.Models.Customer
+
+
+<h1>Edit Customer :</h1>
+
+<br />
+
+@if (ViewBag.Errors != null)
+{
+    <div class="text-danger">
+        <ul>
+            @foreach (var error in ViewBag.Errors)
+            {
+                <li>@error</li>
+            }
+        </ul>
+    </div>
+}
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="SaveCanchges" asp-route-id="@Model.Id">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"> Name :</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="MembershiptypeId" class="control-label"> Membership Name :</label>
+                <select asp-for="MembershiptypeId" class="form-control" asp-items="ViewBag.MembershipTypeId"></select>
+                <span asp-validation-for="MembershiptypeId" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Save Changes" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<br />
+
+<div>
+    <a asp-area=""
+       asp-controller="Customer"
+       asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,23 @@
+﻿[
+  {
+    "Id": "84ca0bcd-082c-49cb-aa77-ea2f1f5f8281",
+    "Name": "offre normale",
+    "SignUpfee": "100.00",
+    "DurationINMonth": 1,
+    "DiscountRate": 0.05
+  },
+  {
+    "Id": "84ca0bcd-082c-49cb-aa77-ea2f1f5f9285",
+    "Name": "offre moyenne",
+    "SignUpfee": "70.00",
+    "DurationINMonth": 3,
+    "DiscountRate": 0.1
+  },
+  {
+    "Id": "84ca0bcd-082c-49cb-aa77-ea2f1f5f8685",
+    "Name": "offre premium",
+    "SignUpfee": "50.00",
+    "DurationINMonth": 6,
+    "DiscountRate": 0.2
+  }
+]
