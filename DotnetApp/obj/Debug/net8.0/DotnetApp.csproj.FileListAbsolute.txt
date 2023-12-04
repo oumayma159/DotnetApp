@@ -136,3 +136,4 @@ C:\Users\dell\Desktop\oumayma\TPS\DotnetApp\DotnetApp\obj\Debug\net8.0\DotnetApp
 C:\Users\dell\Desktop\oumayma\TPS\DotnetApp\DotnetApp\obj\Debug\net8.0\DotnetApp.csproj.CopyComplete
 C:\Users\dell\Desktop\oumayma\TPS\DotnetApp\DotnetApp\bin\Debug\net8.0\Data\Genre.json
 C:\Users\dell\Desktop\oumayma\TPS\DotnetApp\DotnetApp\bin\Debug\net8.0\Data\Membershiptype.json
+C:\Users\dell\Desktop\oumayma\TPS\DotnetApp\DotnetApp\obj\Debug\net8.0\DotnetApp.sourcelink.json
